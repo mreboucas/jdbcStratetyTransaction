@@ -11,6 +11,8 @@ import com.br.mreboucas.jdbc.transaction.TransactionManager;
 
 public class JdbcTransactionTest {
 
+	final static Logger logger = Logger.getLogger(JdbcTransactionTest.class);
+	
 	@Test
 	void testarConnection() {
 		
